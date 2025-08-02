@@ -51,7 +51,7 @@ The main folder contains the following subfolders:
 * font
 * graphics
 
-The ```code``` folder includes ```main.py``` – run this script to play the game. All other scripts are subordinate to this script.
+The ```code``` folder includes ```main.py``` – run this script (from your terminal or a source-code editor) to play the game. All other scripts are subordinate to this script.
 
 Game play data will be stored in ```data``` folder, which also includes Jupyter notebook for analytics (```DOZER_analytics_release.ipynb```). The option to store game play data can be toggled off in the ```main.py``` script.
 
