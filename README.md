@@ -53,7 +53,17 @@ The main folder contains the following subfolders:
 
 The ```code``` folder includes ```main.py``` – run this script (from your terminal or a source-code editor) to play the game. All other scripts are subordinate to this script.
 
-Game play data will be stored in ```data``` folder, which also includes Jupyter notebook for analytics (```DOZER_analytics_release.ipynb```). The option to store game play data can be toggled off in the ```main.py``` script.
+The ```code``` folder includes the following scripts (in alphabetical order):
+*	```main.py``` – runs the game
+*	```morphodynamics.py``` – handles the overwash and washover processes, and is coupled to DOZER actions
+*	```morphodynamics_no_dozer.py``` – dummy model of overwash and washover processes, not coupled to DOZER actions
+*	```pixel.py``` – creates a sprite for each pixel of plow blade
+*	```player.py``` – handles all aspects of the player (DOZER) sprite
+*	```settings.py``` – sets global variables for the game
+*	```support.py``` – handles the artwork paths for art and animation
+*	```tiles.py``` – converts all tiles of domain to individual sprites
+
+Game play data is stored in ```data``` folder, which also includes Jupyter notebook for analytics (```DOZER_analytics_release.ipynb```). The option to store game play data can be toggled off in the ```main.py``` script.
 
 Supporting materials
 The ```gif``` in this repository is indicative of a typical game.
